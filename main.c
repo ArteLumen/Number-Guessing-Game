@@ -6,8 +6,8 @@ int main() {
     int secretNumber, guess, attempts = 0;
 
     srand(time(0));
-    secretNumber = rand() % 100 + 1; // Random number between 1 and 100
-
+    secretNumber = rand() % 100 + 1;
+    
     printf("=== WELCOME TO THE NUMBER GUESSING GAME ===\n");
     printf("I have chosen a number between 1 and 100. Try to guess it!\n\n");
 
